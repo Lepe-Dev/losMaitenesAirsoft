@@ -7,4 +7,3 @@ We need:
 4.- Sections that he wants in the menu.
 5.- All the links to social media.                          * for now
 6.- Name of the owners and where he wants to put that.      * for now
-7.- wharever.
