@@ -61,9 +61,18 @@ font-size: 8rem;
 
 .social-media{
   display: flex;
-
 }
-
+.social-media-list {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  width: 40rem;
+  height: 5rem;
+  list-style: none;
+}
+.social-media-list li{
+  text-decoration: none;
+}
 /*
 #root {
   max-width: 1280px;

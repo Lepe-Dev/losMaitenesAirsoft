@@ -3,7 +3,7 @@ const Home = () => {
   return (
     <div className="home-container">
         <div className="logo-container">
-            <img src="../../public/images/LosMaitenesChile.png" alt="Logo Los Maitenes Airsoft" />
+            <img src="/images/LosMaitenesChile.png" alt="Logo Los Maitenes Airsoft" />
         </div>
         <div className="home-information">
             <div className="home-information-text">
