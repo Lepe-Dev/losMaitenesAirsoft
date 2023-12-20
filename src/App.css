@@ -10,7 +10,18 @@
 body{
   background-color: var(--background-color);
 }
-
+/* NAVBAR */
+.menu-logo {
+  width: 4rem;
+  margin-left: 10%;
+  margin-right: 1rem;
+}
+.bg-body-tertiary.navbar {
+  padding: 1rem;
+}
+.inicio-first-element {
+  margin-left: 10rem !important;
+}
 /* HOME */
 .home-container{
   display: flex;
@@ -52,7 +63,6 @@ font-size: 8rem;
   display: flex;
 
 }
-
 
 /*
 #root {
