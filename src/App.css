@@ -8,7 +8,7 @@
   --subtitle-color: #ddd;
 }
 body{
-  background-color: var(--background-color);
+  background-color: var(--background-color) !important;
 }
 /* NAVBAR */
 .menu-logo {
