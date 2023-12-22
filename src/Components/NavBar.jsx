@@ -11,15 +11,15 @@ function NavBar() {
         <Navbar expand="lg" className="bg-body-tertiary navbar" data-bs-theme="dark">
             <Container fluid>
                 <img className='menu-logo' src={Logo} alt="logo los maitenes airsoft" />
-                <Navbar.Brand className='fs-3'  as={Link} to="/">Los maitenes airsoft</Navbar.Brand>
+                <Navbar.Brand className='fs-2'  as={Link} to="/">Los maitenes airsoft</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav className="me-auto my-2 my-lg-0 ml-auto" style={{ maxHeight: '100px' }} navbarScroll>
-                        <Nav.Link className='fs-5 inicio-first-element' as={Link} to="/home">inicio</Nav.Link>
-                        <Nav.Link className='fs-5'  as={Link} to="./About">nosotros</Nav.Link>
-                        <Nav.Link className='fs-5'  as={Link} to="./Gallery">galería</Nav.Link>
-                        <Nav.Link className='fs-5'  as={Link} to="./Contact">contacto</Nav.Link>
-                        <Nav.Link className='fs-5'  as={Link} to="./WorkWithUs">trabaja con nosotros</Nav.Link>
+                        <Nav.Link className='fs-3 links inicio-first-element' as={Link} to="/home">Inicio</Nav.Link>
+                        <Nav.Link className='fs-3 links'  as={Link} to="./About">Nosotros</Nav.Link>
+                        <Nav.Link className='fs-3 links'  as={Link} to="./Gallery">Galería</Nav.Link>
+                        <Nav.Link className='fs-3 links'  as={Link} to="./Contact">Contacto</Nav.Link>
+                        <Nav.Link className='fs-3 links'  as={Link} to="./WorkWithUs">Trabaja con nosotros</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

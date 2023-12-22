@@ -13,9 +13,13 @@ body{
 }
 /* NAVBAR */
 .menu-logo {
-  width: 4rem;
+  width: 6rem;
   margin-left: 10%;
   margin-right: 1rem;
+}
+.links {
+  margin-left: 3rem;
+  font-size: 5rem;
 }
 .bg-body-tertiary.navbar {
   padding: 1rem;
