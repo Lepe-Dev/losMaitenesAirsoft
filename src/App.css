@@ -23,28 +23,28 @@ body{
 .inicio-first-element {
   margin-left: 10rem !important;
 }
-
 .home-container{
-  display: flex;
+  display: grid;
+  grid-template-areas: 
+    'logo logo information information'
+    'logo logo icons icons'
+  ;
+  width: 100vw;
   height: 100vh;
+  justify-content: center;
+  align-content: center;
 }
-.header{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.logo-container{
+  grid-area: logo;
   width: 100%;
-}
-.logo{
-  filter: drop-shadow(0px 5px 15px rgba(225, 225, 225, 0.9));
-  width: 200rem;
-  margin-left: 8rem;
-  padding: 2rem;
 }
 .home-information-text{
+  display: grid;
+  grid-area: information;
   text-align: center;
-  margin-right: 6rem;
-  margin-bottom: 20rem;
   width: 100%;
+  justify-content: center;
+  align-content: end;
 }
 .home-title{
   margin: 0;
@@ -56,36 +56,34 @@ body{
   color: var(--subtitle-color);
   font-size: 4rem;
 }
-.social-media{
+.icons-container{
   display: flex;
-  background-color: var(--background-social-media);
-  width: 45rem;
-  height: 13rem;
-  border-radius: 2rem;
-  box-shadow: 0px 5px 15px rgba(225, 225, 225, 0.9);
-  position: absolute;
-  right: 50rem;
-  bottom: 35rem;
+  grid-area: icons;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 8rem;
 }
 .social-media-list{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4rem;
   list-style: none;
-  gap: 2rem;
-  padding: 3rem;
-  margin: 0 auto;
+  padding: 4rem;
+  background-color: var(--background-social-media);
+  border-radius: 2rem;
+  box-shadow: 0px 5px 15px rgba(225, 225, 225, 0.9);
 }
-.social-media-list a{
-  text-decoration: none;
-  color: #fff;
-}
-.social-media-list li{
-  display: flex;
-  align-items: center;
+.logo{
+  filter: drop-shadow(0px 5px 15px rgba(225, 225, 225, 0.9));
+  width: 110rem;
+  margin-left: 8rem;
+  padding: 2rem;
 }
 .logo-instagram, .logo-tiktok,
 .logo-facebook, .logo-youtube{
-  width: 6rem;
+  width: 8rem;
   margin: 1rem;
   transition: transform 0.3s;
 }
@@ -93,105 +91,3 @@ body{
 .logo-facebook:hover, .logo-youtube:hover{
   transform: scale(1.25);
 }
-
-
-/* HOME */
-/*
-.home-container{
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-}
-.logo-container {
-  margin-left: 15rem;
-  display: flex;
-  justify-items: center;
-  align-items: center;
-}
-.logo-container img{
-  filter: drop-shadow(0px 5px 15px rgba(225, 225, 225, 0.9));
-  width: 90rem;
-}
-/*
-.home-information{
-  width: 100%;
-  display: grid;
-  grid-template-rows: auto;
-}
-.home-information-text{
-  margin: 5rem 5rem 0rem 5rem;
-  padding: 30rem 8rem 0rem 8rem;
-  font-size: 2rem;
-}
-.home-title{
-color: var(--title-color);
-font-size: 8rem;
-}
-.home-subtitle{
-  color: var(--subtitle-color);
-  font-size: 5rem;
-}
-
-/* SOCIAL MEDIA LIST*/
-/*
-.social-media{
-  display: flex;
-}
-.social-media-list {
-  display: flex;
-  flex-direction: row;
-  gap: 3rem;
-  width: 40rem;
-  height: 5rem;
-  list-style: none;
-}
-.social-media-list li{
-  text-decoration: none;
-}
-
-
-
-/*
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-*/
