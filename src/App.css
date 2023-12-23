@@ -6,8 +6,23 @@
   --background-color: #024873;
   --title-color: #fff;
   --subtitle-color: #ffffff;
+  --paragraph-color: #ffffff;
   --background-social-media: #0000003c;
+  /* Colors */
+  --main-color: #3498db;        /* Main color */ /* this can be changed for the BG color */
+  --secondary-color: #2ecc71;   /* Secondary color */ /* this must be assigned */
+  
+  /* Text Styles */
+  --title-font-size: 2.5em;      /* Title font size */
+  --subtitle-font-size: 1.8em; /* Subtitle font size */
+  --paragraph-font-size: 1.5em;  /* Paragraph font size */
+
+  /* Shadows */
+  --box-shadow-light: 0 2px 4px rgba(0, 0, 0, 0.1);    /* Light box shadow */
+  --box-shadow-medium: 0 4px 8px rgba(0, 0, 0, 0.2);   /* Medium box shadow */
+  --box-shadow-heavy: 0 8px 16px rgba(0, 0, 0, 0.3);   /* Heavy box shadow */
 }
+
 body{
   background: linear-gradient(to bottom right, #024873 36%, #DC150A) !important;
 }
@@ -98,3 +113,37 @@ body{
 .logo-facebook:hover, .logo-youtube:hover{
   transform: scale(1.25);
 }
+
+/* About component starts here */
+.map {
+  display: block;
+  margin: 0 auto;
+  width: 80rem;
+  height: 50rem;
+}
+.about__text-container {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.title {
+  font-size: var(--title-font-size);
+  color: var(--title-color);
+}
+.subtitle {
+  font-size: var(--subtitle-font-size);
+  color: var(--subtitle-color);
+}
+.paragraph {
+  font-size: var(--paragraph-font-size);
+  color: var(--paragraph-color);
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+/* About component endss here */
