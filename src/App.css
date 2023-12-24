@@ -140,11 +140,29 @@ body{
 }
 
 /* About component starts here */
+.map__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 0;
+  gap: 3rem;
+
+}
 .map {
   display: block;
   margin: 0 auto;
   width: 80rem;
   height: 50rem;
+  flex-basis: 45%;
+}
+.subtitle.header__map-subtitle {
+  margin-top: -3rem;
+}
+.map__subtitle {
+  color: var(--subtitle-color);
+  margin-top: 10%;
+  font-size: 5rem;
+  flex-basis: 45%;
 }
 .about__text-container {
   width: 80%;
