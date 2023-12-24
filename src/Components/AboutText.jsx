@@ -1,12 +1,12 @@
 import React from 'react'
-import Image1 from '../../public/images/about-img-1.jpg'
-import Image2 from '../../public/images/about-img-2.jpeg'
-import Image3 from '../../public/images/about-img-3.jpg'
-import Image4 from '../../public/images/about-img-4.jpg'
-import Image5 from '../../public/images/about-img-5.jpg'
-import Image6 from '../../public/images/about-img-6.jpg'
-import Image7 from '../../public/images/about-img-7.jpg'
-import Image8 from '../../public/images/about-img-8.jpg'
+import Image1 from '/src/images/about-img-1.jpg'
+import Image2 from '/src/images/about-img-2.jpeg'
+import Image3 from '/src/images/about-img-3.jpg'
+import Image4 from '/src/images/about-img-4.jpg'
+import Image5 from '/src/images/about-img-5.jpg'
+import Image6 from '/src/images/about-img-6.jpg'
+import Image7 from '/src/images/about-img-7.jpg'
+import Image8 from '/src/images/about-img-8.jpg'
 const AboutText = () => {
     return (
         <div className='about__text-container'>
