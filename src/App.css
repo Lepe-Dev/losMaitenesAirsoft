@@ -17,14 +17,23 @@
   --title-font-size: 2.5em;      /* Title font size */
   --subtitle-font-size: 1.8em; /* Subtitle font size */
   --paragraph-font-size: 1.6em;  /* Paragraph font size */
+  --font-family: 'Your Preferred Font', sans-serif;
+
 
   /* Shadows */
   --box-shadow-light: 2px 2px 6px rgba(0, 0, 0, 0.1);    /* Light box shadow */
   --box-shadow-medium: 2px 4px 8px rgba(0, 0, 0, 0.3);   /* Medium box shadow */
   --box-shadow-heavy: 2px 6px 10px rgba(0, 0, 0, 0.7);   /* Heavy box shadow */
+
+  /* validation colors */
+  --valid-color: #2ecc71;
+  --invalid-color: #e74c3c;
+
+  /* breakpoints */
+  --mobile-breakpoint: 576px;
+  --tablet-breakpoint: 768px;
+  --desktop-breakpoint: 992px;
 }
-/* src/index.css or src/App.css */
-/* src/index.css or src/App.css */
 
 body{
   background: var(--background-color);
