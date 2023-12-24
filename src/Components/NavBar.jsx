@@ -6,6 +6,7 @@ import Logo from '/images/LosMaitenesChile.png';
 import { Link, Outlet } from 'react-router-dom';
 
 function NavBar() {
+
     return (
         <>
         <Navbar expand="lg" className="bg-body-tertiary navbar" data-bs-theme="dark">
