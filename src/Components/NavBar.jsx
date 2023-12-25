@@ -9,7 +9,7 @@ function NavBar() {
 
     return (
         <>
-        <Navbar expand="lg" className="bg-body-tertiary navbar" data-bs-theme="dark">
+        <Navbar expand="lg" className="bg-body-tertiary navbar fixed-top" data-bs-theme="dark" >
             <Container fluid>
                 <img className='menu-logo' src={Logo} alt="logo los maitenes airsoft" />
                 <Navbar.Brand className='fs-2'  as={Link} to="/">Los maitenes airsoft</Navbar.Brand>
