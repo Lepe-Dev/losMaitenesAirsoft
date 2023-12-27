@@ -2,13 +2,14 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Logo from '/images/LosMaitenesChile.png';
+import Logo from '../images/LosMaitenesChile.png';
 import { Link, Outlet } from 'react-router-dom';
 
 function NavBar() {
+
     return (
         <>
-        <Navbar expand="lg" className="bg-body-tertiary navbar" data-bs-theme="dark">
+        <Navbar expand="lg" className="bg-body-tertiary navbar fixed-top" data-bs-theme="dark" >
             <Container fluid>
                 <img className='menu-logo' src={Logo} alt="logo los maitenes airsoft" />
                 <Navbar.Brand className='fs-2'  as={Link} to="/">Los maitenes airsoft</Navbar.Brand>
