@@ -7,8 +7,10 @@
   --background-color: linear-gradient(to bottom right, #024873 36%, #DC150A) !important;
   --title-color: #fff;
   --subtitle-color: #dddcdc;
-  --paragraph-color: #ffffff;
+  --paragraph-color: #fff;
+  --scroll-button-color: #fff;
   --background-social-media: #0000003c;
+  --background-scroll-button: #007bff;
   /* Colors */
   --main-color: #3498db;        /* Main color */ /* this can be changed for the BG color */
   --secondary-color: #2ecc71;   /* Secondary color */ /* this must be assigned */
@@ -38,6 +40,39 @@
 body{
   background: var(--background-color);
   overflow-x: hidden;
+}
+/* SCROLL UP BUTTON */
+.scroll-container {
+  transition: all 1s ease-in-out;
+}
+.scroll-up-button {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 2.4rem;
+  background-color: transparent;
+  color: var(--scroll-button-color);
+  border: none;
+  border-radius: 3rem;
+  padding: 2rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.scroll-up-button.visible {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scroll-up-button:hover{
+  transform: scale(1.07);
+}
+.scroll-arrow{
+  font-size: 3rem;
+}
+.scroll-image{
+  width: 8rem;
+  filter: drop-shadow(0px 5px 6px rgba(0, 0, 0));
 }
 /* NAVBAR */
 .menu-logo {
@@ -190,19 +225,25 @@ body{
   left: calc(30% + 1rem);
 }
 .paragraph {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 2rem 4rem;
+  margin: 5rem 0 5rem 0;
+  border-radius: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
   font-size: var(--paragraph-font-size);
   color: var(--paragraph-color);
   line-height: 1.8;
-  margin-bottom: 2rem;
   text-align: justify;
   text-justify: inter-word;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 .sections__container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-content: center;
   gap: 7rem;
   margin-bottom: 5rem;
 }

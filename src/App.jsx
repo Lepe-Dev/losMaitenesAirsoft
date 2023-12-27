@@ -6,6 +6,7 @@ import About from './Components/About';
 import Gallery from './Components/Gallery';
 import Contact from './Components/Contact';
 import WorkWithUs from './Components/WorkWithUs';
+import ScrollButton from './Components/ScrollButton';
 function App() {
 
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/Contact" element={<Contact />} />
             <Route path="/WorkWithUs" element={<WorkWithUs />} />
         </Routes>
+        <ScrollButton />
       </BrowserRouter>
     </>
   )
