@@ -1,4 +1,3 @@
-import React from 'react';
 import Image1 from '/src/images/about-img-1.jpg';
 import Image2 from '/src/images/about-img-2.jpeg';
 import Image3 from '/src/images/about-img-3.jpg';
@@ -10,7 +9,7 @@ import Image8 from '/src/images/about-img-8.jpg';
 const AboutText = () => {
     return (
         <div className='about__text-container'>
-                <h1 className='title'>Título: "Emergiendo en el Campo de Batalla: El Ascenso de XYZ Airsoft - Una Nueva Era en el Juego Táctico"</h1>
+                <h1 className='title'>Título: &quot;Emergiendo en el Campo de Batalla: El Ascenso de XYZ Airsoft - Una Nueva Era en el Juego Táctico&quot;</h1>
             <section className="sections__container">
                 <img className="about__img" src={Image1} alt="" />
                 <p className="paragraph">En el dinámico mundo de la acción llena de adrenalina y el juego estratégico, XYZ Airsoft ha surgido recientemente como un jugador destacado, marcando el comienzo de una nueva era en el airsoft. Fundada con pasión por experiencias inmersivas, equipos de vanguardia y un compromiso de fomentar una comunidad vibrante, XYZ Airsoft está lista para dejar una marca indeleble en el paisaje del airsoft.</p>
