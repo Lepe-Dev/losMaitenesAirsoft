@@ -12,7 +12,7 @@ function NavBar() {
         <Navbar expand="lg" className="bg-body-tertiary navbar fixed-top" data-bs-theme="dark" >
             <Container fluid>
                 <img className='menu-logo' src={Logo} alt="logo los maitenes airsoft" />
-                <Navbar.Brand className='fs-2'  as={Link} to="/">Los maitenes airsoft</Navbar.Brand>
+                <Navbar.Brand className='fs-2'  as={Link} to="/">Los Maitenes Airsoft</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav className="me-auto my-2 my-lg-0 ml-auto" style={{ maxHeight: '100px' }} navbarScroll>
