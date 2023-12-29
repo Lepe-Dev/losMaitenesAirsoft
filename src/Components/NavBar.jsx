@@ -19,7 +19,6 @@ function NavBar() {
                         <Nav.Link className='fs-3 links inicio-first-element' as={Link} to="/home">Inicio</Nav.Link>
                         <Nav.Link className='fs-3 links'  as={Link} to="./About">Nosotros</Nav.Link>
                         <Nav.Link className='fs-3 links'  as={Link} to="./Gallery">Galería</Nav.Link>
-                        <Nav.Link className='fs-3 links'  as={Link} to="./Contact">Contacto</Nav.Link>
                         <Nav.Link className='fs-3 links'  as={Link} to="./WorkWithUs">Trabaja con nosotros</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
