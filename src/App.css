@@ -329,3 +329,25 @@ body{
   margin-top: 10rem;
 }
 /* WorkWithUs component ends here */
+/* gallery section starts here */
+.gallery {
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(45rem, 1fr));
+  gap: 1rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.gallery__img__container {  
+  width: 100%;
+}
+.gallery__img {
+  width: 100%;
+}
+.gallery__title {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 10rem;
+  margin-left: 3rem;
+  color: white;
+}
+/* gallery section ends here */
