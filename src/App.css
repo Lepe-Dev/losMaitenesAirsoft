@@ -256,7 +256,7 @@ body{
   display: block;
   margin: 0 auto;
   padding: 2rem;
-  margin-top: 6rem;
+  margin-top: 1rem;
 }
 .title {
   font-family: 'Poppins', sans-serif;
@@ -320,6 +320,9 @@ body{
 .paragraph {
   flex-basis: 50%;
 }
+.mision__container {
+  margin-top: 0;
+}
 /* About component ends here */
 
 /* WorkWithUs component starts here */
@@ -329,3 +332,25 @@ body{
   margin-top: 10rem;
 }
 /* WorkWithUs component ends here */
+/* gallery section starts here */
+.gallery {
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(45rem, 1fr));
+  gap: 1rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.gallery__img__container {  
+  width: 100%;
+}
+.gallery__img {
+  width: 100%;
+}
+.gallery__title {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 10rem;
+  margin-left: 3rem;
+  color: white;
+}
+/* gallery section ends here */
