@@ -9,7 +9,25 @@ import Image8 from '/src/images/about-img-8.jpg';
 const AboutText = () => {
     return (
         <div className='about__text-container'>
-                <h1 className='title'>Título: &quot;Emergiendo en el Campo de Batalla: El Ascenso de XYZ Airsoft - Una Nueva Era en el Juego Táctico&quot;</h1>
+                
+            <section className="mision__container">
+
+                <div className="mision__content">
+                <h2 className="subtitle">Nuestra Historia:</h2>
+                <p className="paragraph">Los Maitenes Airsoft nace de la sociedad entre hijo y padre (Kotysaurio - Papásaurio) luego de un  largo tiempo de análisis de lo faltante para desarrollar la actividad en la V rregión. El desafío de implementar una cancha de airsoft en la V región implicó visitar innumerables lugares y muchas conversaciones para equilibrar los aspectos técnicos y económicos necesarios que los llevarían a lograr el objetivo principal, una cancha técnicamente adecuada, de entorno natural, segura y que pudiese transformarse en un lugar de recreación de jugadores avanzados, medios, principiantes y familia en general. El objetivo se cumple a cabalidad con la cancha denominada Los Maitenes Airsoft. Una cancha pensada para todos, te invitamos a conocerla, disfrutarla y ser miembro de una comunidad amena, solidaria y de valores.</p>
+                <p className="paragraph">Te esperamos en Los Maitenes Airsoft, Puchuncaví. V región !!</p>
+                </div>
+                <div className="mision__content">
+                <h2 className="subtitle">Nuestra Misión:</h2>
+                <p className="paragraph">ofrecer a todos los jugadores de Airsoft y comunidad en general un espacio donde puedan desarrollar su pasión por el juego en un entorno seguro, natural, respetuoso del medio ambiente, libre de peligros, adecuado para la actividad y sustentable; un espacio pensado para optimizar el bienestar del jugador, el correcto desarrollo del juego y la vida familiar.</p>
+                </div>
+                <div className="mision__content">
+                <h2 className="subtitle">Nuestra Visión:</h2>
+                <p className="paragraph">Transformarse en un referente local y regional para el desarrollo del Airsoft, dando valor agregado a la actividad por el medio de una cancha planificada, un entorno adecuado y un permanente desarrollo de ideas en bienestar de todo tipo de jugador, ya sea avanzado, medio o principiante.</p>
+                </div>
+                <h2 className="subtitle">a la guerra soldados!</h2>
+            </section>
+            <h1 className='title'>&quot;Emergiendo en el Campo de Batalla: El Ascenso de XYZ Airsoft - Una Nueva Era en el Juego Táctico&quot;</h1>
             <section className="sections__container">
                 <img className="about__img" src={Image1} alt="" />
                 <p className="paragraph">En el dinámico mundo de la acción llena de adrenalina y el juego estratégico, XYZ Airsoft ha surgido recientemente como un jugador destacado, marcando el comienzo de una nueva era en el airsoft. Fundada con pasión por experiencias inmersivas, equipos de vanguardia y un compromiso de fomentar una comunidad vibrante, XYZ Airsoft está lista para dejar una marca indeleble en el paisaje del airsoft.</p>

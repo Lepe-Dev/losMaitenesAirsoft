@@ -256,7 +256,7 @@ body{
   display: block;
   margin: 0 auto;
   padding: 2rem;
-  margin-top: 6rem;
+  margin-top: 1rem;
 }
 .title {
   font-family: 'Poppins', sans-serif;
@@ -319,6 +319,9 @@ body{
 }
 .paragraph {
   flex-basis: 50%;
+}
+.mision__container {
+  margin-top: 0;
 }
 /* About component ends here */
 
