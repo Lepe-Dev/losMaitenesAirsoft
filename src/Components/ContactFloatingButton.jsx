@@ -1,9 +1,10 @@
 import { useState } from 'react';
+import { Link } from "react-router-dom";
 import logowalkietalkie from "/src/images/walkie-talkie.png";
-import logoyoutube from "/src/images/youtube.png";
+/* import logoyoutube from "/src/images/youtube.png";
 import logotiktok from "/src/images/tik-tok.png";
 import logoinstagram from "/src/images/instagram.png";
-import logofacebook from "/src/images/facebook.png";
+import logofacebook from "/src/images/facebook.png"; */
 import logogmail from "/src/images/gmail.png";
 import logowhatsapp from "/src/images/whatsapp.png";
 const ContactFloatingButton = () => {
@@ -21,12 +22,8 @@ const ContactFloatingButton = () => {
         
         {showSocialButtons && (
             <div className="social-buttons">
-                <button className="gmail"><img src={logogmail} alt="Logo Gmail" className="contact-icons" /></button>
-                <button className="whatsapp"><img src={logowhatsapp} alt="Logo Whatsapp" className="contact-icons" /></button>
-                <button className="instagram"><img src={logoinstagram} alt="Logo Instagram" className="contact-icons" /></button>
-                <button className="tiktok"><img src={logotiktok} alt="Logo Tiktok" className="contact-icons" /></button>
-                <button className="facebook"><img src={logofacebook} alt="Logo Facebook" className="contact-icons" /></button>
-                <button className="youtube"><img src={logoyoutube} alt="Logo Youtube" className="contact-icons" /></button>
+                <a className="gmail" href='mailto:losmaitenesairsoft@gmail.com'><img src={logogmail} alt="Logo Gmail" className="contact-icons" /></a>
+                <Link className="whatsapp" to='' target='_blank'><img src={logowhatsapp} alt="Logo Whatsapp" className="contact-icons" /></Link>
             </div>
         )};
     </div>
