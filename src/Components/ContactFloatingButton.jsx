@@ -22,8 +22,12 @@ const ContactFloatingButton = () => {
         
         {showSocialButtons && (
             <div className="social-buttons">
-                <a className="gmail" href='mailto:losmaitenesairsoft@gmail.com'><img src={logogmail} alt="Logo Gmail" className="contact-icons" /></a>
-                <Link className="whatsapp" to='' target='_blank'><img src={logowhatsapp} alt="Logo Whatsapp" className="contact-icons" /></Link>
+                <a className="gmail" href='mailto:losmaitenesairsoft@gmail.com'>
+                    <img src={logogmail} alt="Logo Gmail" className="contact-icons" />
+                </a>
+                <Link className="whatsapp" to='' target='_blank'>
+                    <img src={logowhatsapp} alt="Logo Whatsapp" className="contact-icons" />
+                </Link>
             </div>
         )};
     </div>
