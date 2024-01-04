@@ -381,7 +381,6 @@ body{
   color: white;
 }
 /* gallery section ends here */
-
   @media screen and (max-width: 978px) {
     .home-container{
       margin-top: 5rem;
@@ -477,6 +476,9 @@ body{
   }
   .map {
     width: 40rem;
+  }
+  .workWithUs-container {
+    width: 90%;
   }
 }
 @media screen and (max-width: 518px){
