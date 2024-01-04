@@ -14,6 +14,7 @@
   --scroll-button-color: #fff;
   --background-social-media: #0000003c;
   --background-scroll-button: #007bff;
+  --footer-background-color: #00000026;
   /* Colors */
   --main-color: #3498db;        /* Main color */ /* this can be changed for the BG color */
   --secondary-color: #2ecc71;   /* Secondary color */ /* this must be assigned */
@@ -381,9 +382,36 @@ body{
   color: white;
 }
 /* gallery section ends here */
-<<<<<<< HEAD
-@media screen and (max-width: 978px) {
-=======
+
+/* footer section starts here */
+.footer {
+  margin-top: 5rem;
+  margin-bottom: 0rem;
+  padding: 1rem;
+  color: white;
+  background-color: var(--footer-background-color);
+}
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.section1 {
+  flex-basis: 33%;
+  text-align: center;
+}
+.section2 {
+  flex-basis: 33%;
+  text-align: center;
+}
+.section3 {
+  flex-basis: 33%;
+  text-align: center;
+}
+/* footer section ends here */
+
+
   @media screen and (max-width: 978px) {
     .home-container{
       margin-top: 5rem;
@@ -409,7 +437,6 @@ body{
     .logo-facebook, .logo-youtube{
       width: 3rem;
     }
->>>>>>> 61be5b59e226ab3aa07300e22367d12841e5e9bf
     .about__text-container {
       width: 100%;
       display: flex;
