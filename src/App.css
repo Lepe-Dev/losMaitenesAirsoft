@@ -256,7 +256,7 @@ body{
   display: block;
   margin: 0 auto;
   padding: 2rem;
-  margin-top: 6rem;
+  margin-top: 1rem;
 }
 .title {
   font-family: 'Poppins', sans-serif;
@@ -320,6 +320,9 @@ body{
 .paragraph {
   flex-basis: 50%;
 }
+.mision__container {
+  margin-top: 0;
+}
 /* About component ends here */
 
 /* WorkWithUs component starts here */
@@ -329,3 +332,99 @@ body{
   margin-top: 10rem;
 }
 /* WorkWithUs component ends here */
+/* gallery section starts here */
+.gallery {
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(45rem, 1fr));
+  gap: 1rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.gallery__img__container {  
+  width: 100%;
+}
+.gallery__img {
+  width: 100%;
+}
+.gallery__title {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 10rem;
+  margin-left: 3rem;
+  color: white;
+}
+/* gallery section ends here */
+
+  @media screen and (max-width: 978px) {
+    .about__text-container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 3rem;
+    }
+    .subtitle {
+      margin: 2rem;
+      padding: 2rem;
+    }
+    .about__img {
+      width: 60rem;
+      margin: 0 auto;
+    }
+    .sections__container {
+      width: 100%;
+      background-color: #007bff3b;
+      padding: 0;
+      margin: 0;
+      gap: 1rem;
+    }
+    .subtitle::before {
+      content: none;
+    }
+    .subtitle::after {
+      content: none;
+    }
+    .paragraph {
+      min-width: 100%;
+      margin: 2rem auto;
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 2rem;
+      border-radius: 1.5rem;
+      -webkit-border-radius: 1.5rem;
+      -moz-border-radius: 1.5rem;
+      -ms-border-radius: 1.5rem;
+      -o-border-radius: 1.5rem;
+    }
+    .header__map-subtitle {
+      width: 100%;
+    }
+    .map__subtitle{
+      font-size: 2.5rem;
+      margin-top: 10rem;
+    }
+    .map {
+      width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+  .about__img {
+    width: 40rem;
+  }
+  .header__map-subtitle {
+    margin: 0 auto;
+  }
+  .map__subtitle{
+    width: 100%;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+  .map__container {
+    display: block;
+    margin: 0 auto;
+  }
+  .map {
+    width: 40rem;
+  }
+}
