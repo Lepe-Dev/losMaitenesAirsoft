@@ -1,5 +1,6 @@
 import SocialMediaIcons from "./SocialMediaIcons"
 import losmaitenesimg from "../images/LosMaitenesChile.png"
+import HomeSlider from "./HomeSlider"
 const Home = () => {
   return (
     <>
@@ -15,9 +16,8 @@ const Home = () => {
           <SocialMediaIcons />
         </div>
       </div>
-      <div className="icons-container">
-        <SocialMediaIcons />
-      </div>
+      <div className="separator"></div>
+      <HomeSlider />   
     </>
   )
 }
