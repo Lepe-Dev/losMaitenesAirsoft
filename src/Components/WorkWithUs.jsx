@@ -6,7 +6,7 @@ const WorkWithUs = () => {
 
     return (
             <div className="workWithUs-container">
-                <h1 className="title">Los Maitenes Airsoft - Únete a Nuestro Equipo</h1>
+                <h1 className="title workWithUs-title">Los Maitenes Airsoft - Únete a Nuestro Equipo</h1>
                 <p className="paragraph">Bienvenido a Los Maitenes Airsoft, donde la pasión por el airsoft se encuentra con la profesionalidad y la camaradería. Como una empresa próspera de airsoft, estamos siempre en la búsqueda de individuos dedicados que compartan nuestro entusiasmo por el deporte y nuestro compromiso con la excelencia. Únete a nosotros en esta emocionante travesía de crear experiencias inolvidables de airsoft y fomentar una comunidad de entusiastas con intereses similares.</p>
                 <img className="about__img" src={Image1} alt="" style={{ width: "100%" }} />
                 <h2 className="subtitle">Nuestra Cultura:</h2>
