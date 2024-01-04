@@ -354,7 +354,6 @@ body{
   color: white;
 }
 /* gallery section ends here */
-
   @media screen and (max-width: 978px) {
     .about__text-container {
       width: 100%;
@@ -426,5 +425,8 @@ body{
   }
   .map {
     width: 40rem;
+  }
+  .workWithUs-container {
+    width: 90%;
   }
 }
