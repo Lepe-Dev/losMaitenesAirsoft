@@ -409,6 +409,31 @@ body{
   flex-basis: 33%;
   text-align: center;
 }
+.footer__icons__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  padding: 2rem;
+  transition: transform all 0.5s ease-in-out;
+  -webkit-transition: transform all 0.5s ease-in-out;
+  -moz-transition: transform all 0.5s ease-in-out;
+  -ms-transition: transform all 0.5s ease-in-out;
+  -o-transition: transform all 0.5s ease-in-out;
+}
+.footer__icons {
+  font-size: 3rem;
+  color: white;
+}
+.footer__icons:hover {
+  transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+}
 /* footer section ends here */
 
 

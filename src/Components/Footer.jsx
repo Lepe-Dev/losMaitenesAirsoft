@@ -1,3 +1,6 @@
+import FooterIcons from "./FooterIcons";
+
+
 
 const Footer = () => {
     return (
@@ -7,14 +10,16 @@ const Footer = () => {
                 <div className="footer-section section1">
                     <h2>Contáctanos</h2>
                     <p>Correo: losmaitenesairsoft@gmail.com</p>
-                    <p>celular: +56 9 1234 5678</p>
+                    <p>celular: +56 9 7600 8779</p>
                 </div>
 
                 <div className="footer-section section2">
-                    <h2>Síguenos en: (here to include the social media or sth again.)</h2>
+                    <p>Síguenos en: </p>
+                    <FooterIcons />
                     <div className="social-icons">
                         {/* Include social icons or links here */}
                         {/* Example: <a href="#" className="social-icon">Icon</a> */}
+                        
                     </div>
                 </div>
 

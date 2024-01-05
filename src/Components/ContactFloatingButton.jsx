@@ -20,7 +20,7 @@ const ContactFloatingButton = () => {
             <div className="social-buttons">
 
                 <a className="gmail" href='mailto:losmaitenesairsoft@gmail.com'><img src={logogmail} alt="Logo Gmail" className="contact-icons" /></a>
-                <Link className="whatsapp" to='https://api.whatsapp.com/send?phone=56931190012' target='_blank'><img src={logowhatsapp} alt="Logo Whatsapp" className="contact-icons" /></Link>
+                <Link className="whatsapp" to='https://api.whatsapp.com/send?phone=56976008779' target='_blank'><img src={logowhatsapp} alt="Logo Whatsapp" className="contact-icons" /></Link>
 
             </div>
         )};
