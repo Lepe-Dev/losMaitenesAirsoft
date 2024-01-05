@@ -7,6 +7,7 @@ import Gallery from './Components/Gallery';
 import WorkWithUs from './Components/WorkWithUs';
 import ScrollButton from './Components/ScrollButton';
 import ContactFloatingButton from './Components/ContactFloatingButton';
+import Footer from './Components/Footer';
 function App() {
 
   return (
@@ -22,6 +23,7 @@ function App() {
         </Routes>
         <ScrollButton />
         <ContactFloatingButton />
+        <Footer />
       </BrowserRouter>
     </>
   )
