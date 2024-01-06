@@ -159,12 +159,29 @@ body{
   /* background-color: #e1531b; */
   grid-area: button;
   margin: 0 auto;
+  color: white;
 }
 .button__tickets {
   width: 30%;
   grid-area: button;
   margin: 0 auto;
   margin-left: 25rem;
+  color: white !important;
+  font-size: 2.5rem !important;
+  transition: transform all 600ms ease-in-out;
+  -webkit-transition: transform all 600ms ease-in-out;
+  -moz-transition: transform all 600ms ease-in-out;
+  -ms-transition: transform all 600ms ease-in-out;
+  -o-transition: transform all 600ms ease-in-out;
+}
+.button__tickets:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  background-color: #024873 !important;
+  color: white !important;
 }
 .button__tickets__font__size {
   font-size: 1.5rem;
