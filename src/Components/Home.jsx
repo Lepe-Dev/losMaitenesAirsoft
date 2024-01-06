@@ -1,6 +1,7 @@
 import SocialMediaIcons from "./SocialMediaIcons"
 import losmaitenesimg from "../images/LosMaitenesChile.png"
 import HomeSlider from "./HomeSlider"
+import ButtonTickets from "./ButtonTickets"
 const Home = () => {
   return (
     <>
@@ -15,9 +16,12 @@ const Home = () => {
         <div className="icons-container">
           <SocialMediaIcons />
         </div>
+        <div className="button__container">
+          <ButtonTickets />
+        </div>
       </div>
       <div className="separator"></div>
-      <HomeSlider />   
+     {/*  <HomeSlider />  */}  
     </>
   )
 }
