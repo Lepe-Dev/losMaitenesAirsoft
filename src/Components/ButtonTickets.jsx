@@ -1,4 +1,4 @@
-import Button from 'react-bootstrap/Button';
+/* import Button from 'react-bootstrap/Button'; */
 import '../App.css';
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
@@ -13,7 +13,7 @@ const ButtonTickets = () => {
 
         return (
             <div className="button__container">
-                <Button variant="info" size="lg" className='button__tickets' onClick={showSwal}>Comprar entradas</Button>
+                <button /* variant="info" size="lg" */ className='button__tickets' onClick={showSwal}>Compra tus entradas aquí</button>
             </div>
         )
 }

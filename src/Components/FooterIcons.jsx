@@ -10,7 +10,7 @@ const facebook = "https://www.facebook.com/profile.php?id=61554488474975&mibexti
 const instagram = "https://www.instagram.com/losmaitenesairsoft";
 const youtube = "https://www.youtube.com/@losmaitenes";
 const tiktok = "https://www.tiktok.com/@losmaitenesairsoft";
-const whatsapp = "https://wa.me/56976008779";
+const whatsapp = "https://api.whatsapp.com/send?phone=56932665359";
 
 const FooterIcons = () => {
     return (
