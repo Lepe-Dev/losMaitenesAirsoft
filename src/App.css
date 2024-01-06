@@ -53,7 +53,7 @@ body{
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: -5px;
   font-size: 2.4rem;
   background-color: transparent;
   color: var(--scroll-button-color);
@@ -85,7 +85,7 @@ body{
 .contact-button-container {
   position: fixed;
   bottom: 0px;
-  left: 20px;
+  left: 0px;
   z-index: 1000;
   display: flex;
   flex-direction: column;
@@ -154,44 +154,12 @@ body{
 }
 
 /* HOME */
-.button__container {
-  width: 100%;
-  /* background-color: #e1531b; */
-  grid-area: button;
-  margin: 0 auto;
-  color: white;
-}
-.button__tickets {
-  width: 30%;
-  grid-area: button;
-  margin: 0 auto;
-  margin-left: 25rem;
-  color: white !important;
-  font-size: 2.5rem !important;
-  transition: transform all 600ms ease-in-out;
-  -webkit-transition: transform all 600ms ease-in-out;
-  -moz-transition: transform all 600ms ease-in-out;
-  -ms-transition: transform all 600ms ease-in-out;
-  -o-transition: transform all 600ms ease-in-out;
-}
-.button__tickets:hover {
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  background-color: #024873 !important;
-  color: white !important;
-}
-.button__tickets__font__size {
-  font-size: 1.5rem;
-}
 .home-container{
   display: grid;
   grid-template-areas: 
     'logo logo information information'
-    'logo logo icons icons'
     'logo logo button button'
+    'logo logo icons icons'
   ;
   width: 100%;
   height: 100vh;
@@ -206,8 +174,8 @@ body{
 }
 .logo{
   filter: drop-shadow(0px 5px 15px rgba(225, 225, 225, 0.9));
-  width: 60rem;
-  margin-left: 8rem;
+  width: 70rem;
+  margin-right: 3rem;
   padding: 1rem;
 }
 .home-information-text{
@@ -217,8 +185,7 @@ body{
   width: 100%;
   justify-content: center;
   align-content: end;
-  margin-right: 10rem;
-  padding-right: 10rem;
+  margin-top: 8rem;
 }
 .home-title{
   font-family: 'Poppins', sans-serif;
@@ -232,15 +199,47 @@ body{
   color: var(--subtitle-color);
   font-size: 4rem;
 }
+.button__container {
+  display: flex;
+  width: 100%;
+  /* background-color: #e1531b; */
+  grid-area: button;
+  margin: 0 auto;
+  margin-top: -2rem;
+  justify-content: center;
+}
+.button__tickets {
+  width: 30%;
+  grid-area: button;
+  background-color: rgb(210, 56, 22);
+  color: #fff;
+  border: solid 1px;
+  box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  padding: 1rem;
+  font-family: var(--font-family);
+  font-size: 1.6rem;
+}
+.ticket__popup{
+  padding: 2rem;
+}
+.ticket__popup p{
+  text-align: center;
+  font-size: 1.5rem;
+}
+.ticket__prices{
+  font-weight: lighter;
+}
+.ticket__info{
+  font-size: 1.2rem;
+}
 .icons-container{
   display: flex;
   grid-area: icons;
   width: 100%;
   align-items: flex-start;
   justify-content: center;
-  margin-top: 10rem;
-  margin-right: 10rem;
-  padding-right: 10rem;
+  margin-bottom: 6rem;
 }
 .social-media-list{
   display: flex;
@@ -256,6 +255,7 @@ body{
 .logo-instagram, .logo-tiktok,
 .logo-facebook, .logo-youtube{
   width: 5rem;
+  cursor: pointer;
   transition: transform 0.3s;
 }
 .logo-instagram:hover, .logo-tiktok:hover,
@@ -294,6 +294,7 @@ body{
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 0;
+  align-items: center;
   gap: 3rem;
 
 }
@@ -323,9 +324,11 @@ body{
 }
 .title {
   font-family: 'Poppins', sans-serif;
-  font-size: var(--title-font-size);
+  font-size: 4rem;
+  text-align: center;
+  padding: 5rem;
   color: var(--title-color);
-  margin-bottom: 3rem;
+  margin-bottom: 8rem;
   margin-top: 1rem;
 }
 .subtitle {
@@ -422,7 +425,7 @@ body{
 .footer {
   margin-top: 5rem;
   margin-bottom: 0rem;
-  padding: 1rem;
+  padding: 5rem 1rem 3rem 1rem;
   color: white;
   background-color: var(--footer-background-color);
 }
@@ -470,14 +473,20 @@ body{
   -o-transform: rotate(15deg);
 }
 /* footer section ends here */
-  @media screen and (max-width: 1230px) {
-  .button__tickets {
-    margin-left: 18rem;
+@media screen and (max-width: 1239px) {
+  .button__container{
+    margin: 2rem 0;
+  }
+  .button__tickets{
+    width: 50%;
   }
 }
   @media screen and (max-width: 978px) {
-    .button__tickets {
-      margin-left: 10rem;
+    .button__container {
+      margin: 4rem 0 0 0;
+    }
+    .button__tickets{
+      width: 60%;
     }
     .home-container{
       margin-top: 5rem;
@@ -554,6 +563,28 @@ body{
       width: 100%;
     }
 }
+@media screen and (max-width: 915px) {
+  .logo{
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .home-container{
+    padding-right: 2rem;
+  }
+  
+}
+@media screen and (max-width: 815px) {
+  .home-container{
+    padding-right: 3rem;
+  }
+  .logo{
+    width: 40rem;
+  }
+  .button__tickets{
+    width: 70%;
+  }
+  
+}
 @media screen and (max-width: 768px) {
   .about__img {
     width: 40rem;
@@ -578,11 +609,7 @@ body{
     width: 90%;
   }
 }
-@media screen and (max-width: 518px){
-  .button__tickets {
-    margin-left: 17rem;
-    margin-top: 1rem;
-  }
+@media screen and (max-width: 724px) {
   .home-container{
     display: block;
     margin: 0 auto;
@@ -594,15 +621,43 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
+    margin-top: 8rem;
+  }
+  .home-information-text{
+    margin-top: 0;
+  }
+  .button__tickets{
+    width: 40%;
+  }
+  
+}
+@media screen and (max-width: 525px){
+  .home-container{
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    padding: 0;
+    margin-top: 12rem;
+  }
+  .logo-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
   }
   .logo{
     width: 40rem;
-    margin: 6rem 0 2rem 0;
+    margin-right: 0;
+    padding: 0;
+    padding-right: 2rem;
   }
   .home-information-text{
     display: block;
     margin: 0 auto;
     padding: 0;
+  }
+  .button__tickets{
+    width: 50%;
   }
   .icons-container{
     margin-right: 0;
@@ -626,19 +681,17 @@ body{
   }
 }
 @media screen and (max-width: 376px){
-  /* html{
-    width: 100%;
-  } */
-  
   .home-container{
     display: block;
     margin: 0 auto;
     margin-top: 1rem;
     height: 100vh;
+    padding-right: 2rem;
   }
   .logo{
-    width: 35rem;
-    margin: 6rem 2rem 0 0;
+    width: 25rem;
+    margin: 0;
+    margin-top: 1rem;
     padding-bottom: 0;
   }
   .home-title{
@@ -646,6 +699,12 @@ body{
   }
   .home-subtitle{
     font-size: 1.6rem;
+  }
+  .button__container{
+    margin-top: 2rem;
+  }
+  .button__tickets{
+    width: 60%;
   }
   .icons-container{
     margin-top: 3rem;
@@ -683,7 +742,7 @@ body{
   }
   .scroll-up-button {
     bottom: -5px;
-    right: -25px;
+    right: 50px;
   }
   .scroll-arrow{
     margin-top: 3.2rem;
