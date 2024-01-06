@@ -6,12 +6,13 @@ import Image5 from '/src/images/about-img-5.jpg';
 import Image6 from '/src/images/about-img-6.jpg';
 import Image7 from '/src/images/about-img-7.jpg';
 import Image8 from '/src/images/about-img-8.jpg';
+import Map from "./Map";
+
 const AboutText = () => {
     return (
         <div className='about__text-container'>
                 
             <section className="mision__container">
-
                 <div className="mision__content">
                 <h2 className="subtitle">Nuestra historia:</h2>
                 <p className="paragraph">Los Maitenes Airsoft nace de la sociedad entre Padre e hijo (Papásaurio - Kotysaurio) luego de un  largo tiempo de análisis de lo faltante para desarrollar la actividad en la V rregión. El desafío de implementar una cancha de airsoft en la V región implicó visitar innumerables lugares y muchas conversaciones para equilibrar los aspectos técnicos y económicos necesarios que los llevarían a lograr el objetivo principal, una cancha técnicamente adecuada, de entorno natural, segura y que pudiese transformarse en un lugar de recreación de jugadores avanzados, medios, principiantes y familia en general. El objetivo se cumple a cabalidad con la cancha denominada Los Maitenes Airsoft. Una cancha pensada para todos, te invitamos a conocerla, disfrutarla y ser miembro de una comunidad amena, solidaria y de valores.</p>
@@ -25,8 +26,9 @@ const AboutText = () => {
                 <h2 className="subtitle">Nuestra visión:</h2>
                 <p className="paragraph">Transformarse en un referente local y regional para el desarrollo del Airsoft, dando valor agregado a la actividad por el medio de una cancha planificada, un entorno adecuado y un permanente desarrollo de ideas en bienestar de todo tipo de jugador, ya sea avanzado, medio o principiante.</p>
                 </div>
-                <h2 className="subtitle">A la batalla soldados!</h2>
+            <Map />
             </section>
+            <h2 className="subtitle">A la batalla soldados!</h2>
             <h1 className='title'>&quot;Emergiendo en el Campo de Batalla: Una Nueva Era en el Juego Táctico&quot;</h1>
             <section className="sections__container">
                 <img className="about__img" src={Image1} alt="" />
