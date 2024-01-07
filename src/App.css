@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
   padding: 0;
@@ -562,6 +563,11 @@ body{
       width: 100%;
     }
 }
+@media screen and (max-width: 960px) {
+  .inicio-first-element {
+    margin-left: 1rem !important;
+  }
+}
 @media screen and (max-width: 915px) {
   .logo{
     margin-left: 0;
@@ -570,6 +576,7 @@ body{
   .home-container{
     padding-right: 2rem;
   }
+  
   
 }
 @media screen and (max-width: 815px) {
@@ -582,7 +589,9 @@ body{
   .button__tickets{
     width: 70%;
   }
-  
+  .footer__icons__container {
+    gap: 1rem;
+  }
 }
 @media screen and (max-width: 768px) {
   .about__img {
@@ -634,7 +643,7 @@ body{
   .home-container{
     display: block;
     margin: 0 auto;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 0;
     margin-top: 12rem;
   }
@@ -648,7 +657,7 @@ body{
     width: 40rem;
     margin-right: 0;
     padding: 0;
-    padding-right: 2rem;
+    /* padding-right: 2rem; */
   }
   .home-information-text{
     display: block;
@@ -661,14 +670,18 @@ body{
   .icons-container{
     margin-right: 0;
     padding: 0;
+    margin-top: 2rem;
+  }
+  .footer__icons {
+    font-size: 2rem;
   }
   .contact-button-container {
-    bottom: 0;
+    bottom: 15rem;
     left: 8px;
     padding: 1rem;
   }
   .scroll-up-button {
-    bottom: 10px;
+    bottom: 17rem;
     right: -15px;
   }
   .scroll-arrow{
@@ -676,16 +689,26 @@ body{
     font-size: 3rem;
   }
   .footer {
-    margin-top: 10rem;
+    margin-top: 12rem;
   }
 }
+/* @media screen and (max-width: 450px){
+  :root {
+    --background-color: linear-gradient(to bottom right, #024873 36%, #DC150A) !important;
+  }
+} */
 @media screen and (max-width: 376px){
+  #root {
+    width: 320px;
+  }
   .home-container{
+    width: 387px;
+    /* background-color: #000; */
     display: block;
     margin: 0 auto;
     margin-top: 1rem;
     height: 100vh;
-    padding-right: 2rem;
+    /* padding-right: 2rem; */
   }
   .logo{
     width: 25rem;
@@ -717,7 +740,7 @@ body{
     width: 2.7rem;
   }
   .contact-button-container {
-    bottom: -20px;
+    bottom: 14rem;
     left: -10px;
     padding: 2rem;
   }
@@ -740,8 +763,8 @@ body{
     margin-bottom: 0rem;
   }
   .scroll-up-button {
-    bottom: -5px;
-    right: 50px;
+    bottom: 17rem;
+    right: 1rem;
   }
   .scroll-arrow{
     margin-top: 3.2rem;
