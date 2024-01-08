@@ -801,4 +801,10 @@ body{
   .gallery__title {
     margin-top: 12rem;
   }
+  .workWithUs-container {
+    margin-top: 7rem;
+  }
+  .workWithUs-title {
+    margin-bottom: -4rem;
+  }
 }
