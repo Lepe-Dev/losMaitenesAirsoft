@@ -692,11 +692,20 @@ body{
     margin-top: 12rem;
   }
 }
-/* @media screen and (max-width: 450px){
-  :root {
-    --background-color: linear-gradient(to bottom right, #024873 36%, #DC150A) !important;
+@media screen and (max-width: 420px){
+  .mision__container {
+    width: 95%;
   }
-} */
+  .map {
+    width: 100%;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .about__img {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 376px){
   #root {
     width: 320px;
@@ -773,5 +782,29 @@ body{
   }
   .scroll-image{
     width: 6rem;
+  }
+  .footer {
+    width: 100%;
+    margin-top: 5rem;
+  }
+  .footer-content {
+    flex-direction: column;
+  }
+  .footer__icons {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 340px){
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+  .gallery__title {
+    margin-top: 12rem;
+  }
+  .workWithUs-container {
+    margin-top: 7rem;
+  }
+  .workWithUs-title {
+    margin-bottom: -4rem;
   }
 }
