@@ -349,10 +349,11 @@ body{
 .subtitle::after {
   content: "";
   background-color: rgba(255, 255, 255, 0.103);
-  width: 2000px;
+  width: calc(85% - 5rem);
   height: 100%;
   position: absolute;
   left: calc(30% + 1rem);
+
 }
 .paragraph {
   background-color: rgba(0, 0, 0, 0.3);
