@@ -14,17 +14,17 @@ const AboutText = () => {
                 
             <section className="mision__container">
                 <div className="mision__content">
-                <h2 className="subtitle">Nuestra historia:</h2>
-                <p className="paragraph">Los Maitenes Airsoft nace de la sociedad entre Padre e hijo (Papásaurio - Kotysaurio) luego de un  largo tiempo de análisis de lo faltante para desarrollar la actividad en la V rregión. El desafío de implementar una cancha de airsoft en la V región implicó visitar innumerables lugares y muchas conversaciones para equilibrar los aspectos técnicos y económicos necesarios que los llevarían a lograr el objetivo principal, una cancha técnicamente adecuada, de entorno natural, segura y que pudiese transformarse en un lugar de recreación de jugadores avanzados, medios, principiantes y familia en general. El objetivo se cumple a cabalidad con la cancha denominada Los Maitenes Airsoft. Una cancha pensada para todos, te invitamos a conocerla, disfrutarla y ser miembro de una comunidad amena, solidaria y de valores.</p>
-                <p className="paragraph">Te esperamos en Los Maitenes Airsoft, Puchuncaví. V región !!</p>
+                    <h2 className="subtitle">Nuestra historia:</h2>
+                    <p className="paragraph">Los Maitenes Airsoft nace de la sociedad entre Padre e hijo (Papásaurio - Kotysaurio) luego de un  largo tiempo de análisis de lo faltante para desarrollar la actividad en la V rregión. El desafío de implementar una cancha de airsoft en la V región implicó visitar innumerables lugares y muchas conversaciones para equilibrar los aspectos técnicos y económicos necesarios que los llevarían a lograr el objetivo principal, una cancha técnicamente adecuada, de entorno natural, segura y que pudiese transformarse en un lugar de recreación de jugadores avanzados, medios, principiantes y familia en general. El objetivo se cumple a cabalidad con la cancha denominada Los Maitenes Airsoft. Una cancha pensada para todos, te invitamos a conocerla, disfrutarla y ser miembro de una comunidad amena, solidaria y de valores.</p>
+                    <p className="paragraph">Te esperamos en Los Maitenes Airsoft, Puchuncaví. V región !!</p>
                 </div>
                 <div className="mision__content">
-                <h2 className="subtitle">Nuestra misión:</h2>
-                <p className="paragraph">Ofrecer a todos los jugadores de Airsoft y comunidad en general un espacio donde puedan desarrollar su pasión por el juego en un entorno seguro, natural, respetuoso del medio ambiente, libre de peligros, adecuado para la actividad y sustentable; un espacio pensado para optimizar el bienestar del jugador, el correcto desarrollo del juego y la vida familiar.</p>
+                    <h2 className="subtitle">Nuestra misión:</h2>
+                    <p className="paragraph">Ofrecer a todos los jugadores de Airsoft y comunidad en general un espacio donde puedan desarrollar su pasión por el juego en un entorno seguro, natural, respetuoso del medio ambiente, libre de peligros, adecuado para la actividad y sustentable; un espacio pensado para optimizar el bienestar del jugador, el correcto desarrollo del juego y la vida familiar.</p>
                 </div>
-                <div className="mision__content">
-                <h2 className="subtitle">Nuestra visión:</h2>
-                <p className="paragraph">Transformarse en un referente local y regional para el desarrollo del Airsoft, dando valor agregado a la actividad por el medio de una cancha planificada, un entorno adecuado y un permanente desarrollo de ideas en bienestar de todo tipo de jugador, ya sea avanzado, medio o principiante.</p>
+                    <div className="mision__content">
+                    <h2 className="subtitle">Nuestra visión:</h2>
+                    <p className="paragraph">Transformarse en un referente local y regional para el desarrollo del Airsoft, dando valor agregado a la actividad por el medio de una cancha planificada, un entorno adecuado y un permanente desarrollo de ideas en bienestar de todo tipo de jugador, ya sea avanzado, medio o principiante.</p>
                 </div>
             <Map />
             </section>

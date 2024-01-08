@@ -1,12 +1,12 @@
 import img1 from "../images/buildingStage-1.jpeg";
 import img2 from "../images/buildingStage-2.jpeg";
 import img3 from "../images/buildingStage-3.jpeg";
-import img4 from "../images/buildingStage-4.jpeg";
+/* import img4 from "../images/buildingStage-4.jpeg"; */
 import img5 from "../images/buildingStage-5.jpeg";
 import img6 from "../images/buildingStage-6.jpeg";
 import img7 from "../images/buildingStage-7.jpeg";
 import img8 from "../images/buildingStage-8.jpeg";
-import img9 from "../images/buildingStage-9.jpeg";
+/* import img9 from "../images/buildingStage-9.jpeg"; */
 import img10 from "../images/buildingStage-10.jpeg";
 import img11 from "../images/buildingStage-11.jpeg";
 

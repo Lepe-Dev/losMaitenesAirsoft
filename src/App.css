@@ -7,8 +7,7 @@
   font-family: 'Lato', sans-serif;
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto', sans-serif;
-  /* --background-color: #024873; */
-  --background-color: linear-gradient(to bottom right, #024873 36%, #DC150A) !important;
+  --background-color: linear-gradient(to bottom right, #024873 36%, #DC150A);
   --title-color: #fff;
   --subtitle-color: #dddcdc;
   --paragraph-color: #fff;
@@ -41,10 +40,9 @@
   --tablet-breakpoint: 768px;
   --desktop-breakpoint: 992px;
 }
-
 body{
   background: var(--background-color);
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 /* SCROLL UP BUTTON */
 .scroll-container {
