@@ -1,6 +1,7 @@
 import SocialMediaIcons from "./SocialMediaIcons"
 import losmaitenesimg from "../images/LosMaitenesChile.png"
 import ButtonTickets from "./ButtonTickets"
+import Map from "./Map"
 const Home = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const Home = () => {
           <SocialMediaIcons />
         </div>
       </div>
+      <Map />
      {/*  <HomeSlider />  */}  
     </>
   )
