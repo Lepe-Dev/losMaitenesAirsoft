@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="footer-section section1">
                     <h2>Contáctanos</h2>
                     <p>Correo: losmaitenesairsoft@gmail.com</p>
-                    <p>celular: +56 9 7600 8779</p>
+                    <p>Celular: +56 9 3266 5359</p>
                 </div>
 
                 <div className="footer-section section2">
