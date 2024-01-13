@@ -9,8 +9,8 @@ const ButtonTickets = () => {
                 title:
                     <div className='ticket__popup'>
                         <p className='ticket__prices'>
-                            Valor Entrada: $5.000 <br />
-                            Valor Rental: $25.000 {"(Réplica, Chaleco, Máscara, Balines)"}
+                            Adhesión Entrada: $5.000 <br />
+                            Adhesión Rental: $25.000 {"(Réplica, Chaleco, Máscara, Balines)"}
                         </p>
                         <p className='ticket__details'>
                             Datos Transferencia:<br />
