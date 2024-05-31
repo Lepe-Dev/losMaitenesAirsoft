@@ -1,10 +1,10 @@
 /* import Button from 'react-bootstrap/Button'; */
 import '../App.css';
-import Swal from 'sweetalert2'
-import withReactContent from 'sweetalert2-react-content'
+/* import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content' */
 const ButtonTickets = () => {
 
-        const showSwal = () => {
+        /* const showSwal = () => {
             withReactContent(Swal).fire({
                 title:
                     <div className='ticket__popup'>
@@ -23,11 +23,11 @@ const ButtonTickets = () => {
                         <i className='ticket__info'>Enviar comprobante por correo {'(losmaitenesairsoft@gmail.com)'} o al Whatsapp {'(+56932665359)'} indicando detalle de la compra.</i>
                     </div>
             })
-        }
+        } */
 
         return (
             <div className="button__container">
-                <button /* variant="info" size="lg" */ className='button__tickets' onClick={showSwal}>Compra tus entradas aquí</button>
+                <p /* variant="info" size="lg" */ className='button__tickets' /* onClick={showSwal} */>Compra tus entradas en cancha</p>
             </div>
         )
 }
