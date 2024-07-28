@@ -22,6 +22,8 @@ import LosMaitenes_10 from "../images/los-maitenes-10.png";
 import LosMaitenes_11 from "../images/los-maitenes-11.png";
 import LosMaitenes_12 from "../images/los-maitenes-12.png";
 import LosMaitenes_13 from "../images/los-maitenes-13.png";
+import LosMaitenes_14 from "../images/los-maitenes-14.png";
+import LosMaitenes_15 from "../images/los-maitenes-15.png";
 const Gallery = () => {
     return (
         <>
@@ -32,7 +34,7 @@ const Gallery = () => {
                         <img className="gallery__img" src={LosMaitenes_1} alt="los maitenes airsoft image" />
                     </div>
                     <div className="gallery__img__container">
-                        <img className="gallery__img" src={LosMaitenes_1} alt="los maitenes airsoft image" />
+                        <img className="gallery__img" src={LosMaitenes_15} alt="los maitenes airsoft image" />
                     </div>
                     <div className="gallery__img__container">
                         <img className="gallery__img" src={LosMaitenes_2} alt="los maitenes airsoft image" />
@@ -69,6 +71,9 @@ const Gallery = () => {
             <div className="gallery">
                         <div className="gallery__img__container">
                             <img className="gallery__img" src={LosMaitenes_6} alt="los maitenes airsoft image" />
+                        </div>
+                        <div className="gallery__img__container">
+                            <img className="gallery__img" src={LosMaitenes_14} alt="los maitenes airsoft image" />
                         </div>
                         <div className="gallery__img__container">
                             <img className="gallery__img" src={LosMaitenes_5} alt="los maitenes airsoft image" />
